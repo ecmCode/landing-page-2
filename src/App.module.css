@@ -55,13 +55,13 @@
         @apply min-h-screen;
     }
     .portfolioHeader{
-        @apply py-10 px-40 font-bold text-xl
+        @apply py-10 px-40 font-bold text-xl text-center lg:text-left
     }
     .portfolioImage{
         @apply grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-4 my-4 items-center w-max m-auto
     }
     .portfolioImage img{
-        @apply object-cover h-72 lg:h-64
+        @apply object-cover h-64
     }
     .contact{
         @apply min-h-screen flex flex-col justify-center items-center gap-20 my-10;
