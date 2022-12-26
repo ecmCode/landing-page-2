@@ -12,7 +12,7 @@ const WelcomePage = ({ name, setName }) => {
         </header>
         <div className={style.title}>
           <h3>I am {name}.</h3>
-          <h1>I make websites</h1>
+          <h1>I make web&shy;sites</h1>
           <p>I'm a graphic designer and web developer</p>
           <DownloadButton setName={setName}/>
         </div>
@@ -40,7 +40,7 @@ const Contact = () => {
   return(
     <div className={style.contact}>
         <header className={style.contactHeader}>
-          Let's make a new amazing project?
+          Let's make a new ama&shy;zing pro&shy;ject?
         </header>
         <div className={style.contactIndex}>
           <div className={style.contactInfo}>
